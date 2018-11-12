@@ -7,7 +7,7 @@
    </div>
   </div>
 </div>
-
+<script src="lib/jquery.query-object.js"></script>
 <script>
 function changeLang() {
   var lang = '<?php echo $lang; ?>';
