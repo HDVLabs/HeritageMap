@@ -40,7 +40,7 @@ try {
         position: 'bottomright',
         content : '<div class="card" style="width: 18rem;">'+
           '<div class="card-body">'+
-            '<h5 class="card-title <?php echo $doc['story_type']; ?>"><a href="search.php?q=&city=<?php echo $doc['city']; ?>&doc_id=<?php echo $doc['id']; ?>&lang=<?php echo $lang; ?>"><?php echo addslashes($doc[$lang.'_title']) . '\n'; ?>
+            '<h5 class="card-title <?php echo $doc['story_type']; ?>"><a href="search.php?q=&city=<?php echo $doc['city']; ?>&doc_id=<?php echo $doc['id']; ?>&lang=<?php echo $lang; ?>"><?php echo addslashes($doc[$lang.'_title']) .", (" .$doc['city'] . ")" . '\n'; ?>
             </a>'+
             '<button type="button" id="id_<?php echo $doc['id']; ?>" class="close" aria-label="Close">'+
               '<span aria-hidden="true">&times;</span></h5>'+
