@@ -1,0 +1,150 @@
+h1,h2,h3,h4,p,a,span,div,input,select,.btn,.breadcrumb-item{font-family: 'Open Sans Condensed', 'Helvetica', sans-serif !important;}
+.dropdown-item,body,p{font-size: 1.1rem;}
+p.popup{font-size: 1.2rem;}
+.manual,.manual:hover{box-shadow: 0 1px 5px rgba(0,0,0,0.65);border-radius: 4px;color: #e99266 !important;background-color: #fff;margin-left:2px;}
+.buno{font-size: 0.9rem;font-weight: lighter;}
+.help{font-size: 1.3rem;font-weight: bolder;}
+h1{font-size: 1.7rem; color: #34a5d9;}
+h2{font-size: 1.4rem; color: #80D9FF;}
+h3{font-size: 1.2rem; color: #80D9FF;}
+.btn-light,.btn-outline-light{border-color: #34a5d9 !important;}
+input,.btn-light:hover,.btn-outline-light:hover,.show>.btn-light.dropdown-toggle,textarea{border-color: #34a5d9 !important; color: #34a5d9 !important; background-color: #f8f9fa!important;}
+input placeholder,nav a,.btn-outline-light,.btn-light{color: #34a5d9 !important;}
+.breadcrumb-item,nav a:hover,.btn:active{color: #99CCE6 !important;}
+.breadcrumb-item a,a{color: #e99266 !important;}
+.help,.langlink,a:hover{color: #b96047 !important;}
+*:focus {border-color: #34a5d9 !important; outline: 0;box-shadow:none !important;}
+blockquote {margin: 1em;font-style: italic;}
+.sivas{color: #9d9e78;}
+.adana{color: #bd6456;}
+.setbirhexbir{color: #99CCE6;}
+.setbirhexiki{color: #80D9FF;}
+.setbirhexuc{color: #34a5d9;}
+.setikihexbir{color:#efdeaf;}
+.setikihexiki{color:#e99266;}
+.setikihexuc{color:#b96047;}
+.navbar-brand img{width:150px;height:52.08px;}
+.vitrin{max-height: 9em;}
+#placecrumb{position:relative;}
+#sidebar{overflow-y: auto;}
+#search_filter{z-index: 9999;}
+#sharer{ position:absolute;right:1rem;top:50%;transform:translateY(-50%);}
+.spinner{z-index:800;margin:auto;display:block;position:absolute;top:130px;left:45%;}
+.spinner > div{width:18px;height:18px;background-color:#b96047;border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both;}
+.spinner .bounce1{-webkit-animation-delay:-0.32s;animation-delay:-0.32s;}
+.spinner .bounce2{-webkit-animation-delay:-0.16s;animation-delay:-0.16s;}
+@-webkit-keyframes sk-bouncedelay{0%, 80%, 100%{-webkit-transform:scale(0)}
+40%{-webkit-transform:scale(1.0)}
+}
+@keyframes sk-bouncedelay{0%, 80%, 100%{-webkit-transform:scale(0);transform:scale(0);}
+40%{-webkit-transform:scale(1.0);transform:scale(1.0);}
+}
+@media (min-width:576px){#search_filter{right:0;left:auto;}
+}
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow{-webkit-transition:-webkit-transform 0.3s ease-out, opacity 0.3s ease-in;-moz-transition:-moz-transform 0.3s ease-out, opacity 0.3s ease-in;-o-transition:-o-transform 0.3s ease-out, opacity 0.3s ease-in;transition:transform 0.3s ease-out, opacity 0.3s ease-in;}
+.leaflet-cluster-spider-leg{-webkit-transition:-webkit-stroke-dashoffset 0.3s ease-out, -webkit-stroke-opacity 0.3s ease-in;-moz-transition:-moz-stroke-dashoffset 0.3s ease-out, -moz-stroke-opacity 0.3s ease-in;-o-transition:-o-stroke-dashoffset 0.3s ease-out, -o-stroke-opacity 0.3s ease-in;transition:stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;}
+.marker-cluster-small{background-color:rgba(144, 144, 144, 0.6);}
+.marker-cluster-small div{background-color:rgba(208, 208, 208, 0.6);}
+.marker-cluster-medium{background-color:rgba(120, 120, 120, 0.6);}
+.marker-cluster-medium div{background-color:rgba(199, 199, 199, 0.6);}
+.marker-cluster-large{background-color:rgba(96, 96, 96, 0.6);}
+.marker-cluster-large div{background-color:rgba(180, 180, 180, 0.6);}
+.leaflet-oldie .marker-cluster-small{background-color:rgb(144, 144, 144);}
+.leaflet-oldie .marker-cluster-small div{background-color:rgb(208, 208, 208);}
+.leaflet-oldie .marker-cluster-medium{background-color:rgb(120, 120, 120);}
+.leaflet-oldie .marker-cluster-medium div{background-color:rgb(199, 199, 199);}
+.leaflet-oldie .marker-cluster-large{background-color:rgb(96, 96, 96);}
+.leaflet-oldie .marker-cluster-large div{background-color:rgb(180, 180, 180);}
+.marker-cluster{background-clip:padding-box;border-radius:20px;}
+.marker-cluster div{width:30px;height:30px;margin-left:5px;margin-top:5px;text-align:center;border-radius:15px;font:12px "Helvetica Neue", Arial, Helvetica, sans-serif;}
+.marker-cluster span{line-height:30px;}
+.leaflet-bar button,
+.leaflet-bar button:hover {
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.leaflet-bar button {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+}
+
+.leaflet-bar button:hover {
+  background-color: #f4f4f4;
+}
+
+.leaflet-bar button:first-of-type {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.leaflet-bar button:last-of-type {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom: none;
+}
+
+.leaflet-bar.disabled,
+.leaflet-bar button.disabled {
+  cursor: default;
+  pointer-events: none;
+  opacity: .4;
+}
+
+.easy-button-button .button-state{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+.leaflet-touch .leaflet-bar button {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.leaflet-control-minimap {
+    border:solid rgba(255, 255, 255, 1.0) 3px;
+    box-shadow: 0 1px 7px #999;
+    background: #f8f8f9;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    transition: all .2s;
+}
+
+.leaflet-control-minimap a {
+    background-color: rgba(255, 255, 255, 1.0);
+    background-position: 1px 2px;
+    background-repeat: no-repeat;
+    display: block;
+    outline: none;
+    z-index: 99999;
+    transition: all .2s;
+}
+
+.leaflet-control-minimap a.minimized {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.leaflet-control-minimap-toggle-display {
+    background-image: url("images/toggle.png");
+    border-radius: 2px 0px 2px 0px;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
