@@ -30,9 +30,9 @@ try {
     if ($doc['story_type'] == 'video') {
       $source = '<div class="embed-responsive embed-responsive-16by9">'.$doc['url'].'</div>';
     } elseif ($doc['story_type'] == 'panorama') {
-      $source = '<img class="img-fluid vitrin" src="docu/360/'.$doc['url'].'"/>';
+      $source = '<img class="img-fluid vitrin" alt="featured story" src="docu/360/'.$doc['url'].'"/>';
     } else {
-      $source = '<img class="img-fluid vitrin" src="docu/vitrin/'.$doc['url'].'"/>';
+      $source = '<img class="img-fluid vitrin" alt="featured story" src="docu/vitrin/'.$doc['url'].'"/>';
     }
     ?>
     var id_<?php echo $doc['id']; ?> = L.control.custom({
