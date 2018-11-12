@@ -20,7 +20,7 @@ try {
             '<button type="button" id="<?php echo $row['inv_id']; ?>" class="close" aria-label="Close">'+
               '<span aria-hidden="true">&times;</span>'+
             '</button></h5>'+
-            '<p class="card-text text-center"><a href="search.php?q=<?php echo $row['inv_id']; ?>"><img class="img-fluid vitrin" src="site_images/<?php echo $row['Visual_1']; ?>"/></a></p>'+
+            '<p class="card-text text-center"><a href="search.php?q=<?php echo $row['inv_id']; ?>"><img class="img-fluid vitrin" src="site_images/<?php echo $row['Visual_1']; ?>" alt="<?php echo $row['name']; ?> introduction visual"/></a></p>'+
           '</div>'+
         '</div>'
     })
