@@ -11,11 +11,23 @@
   <div class="bounce2"></div>
   <div class="bounce3"></div>
 </div>
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
+<script src="lib/leaflet-bing-layer.min.js"></script>
 <script>
 var lang = '<?php echo $lang; ?>';
 $('#map_canvas').css("height", $(document).height() - 80).addClass("col-md-12");
-  var basetiles = L.tileLayer('<?php echo $tileUrl; ?>',{ maxZoom: 19, attribution: '<?php echo $mapAttrib; ?>' });
-  var sattiles = L.tileLayer('<?php echo $satelliteUrl; ?>',{ maxZoom: 16, attribution: '<?php echo $mapAttrib; ?>' });
+  var bopti = {
+    bingMapsKey: '<?php echo $bingkey; ?>',
+    imagerySet: 'CanvasLight',
+    culture: '<?php echo $lang; ?>'
+  }
+  var bsopti = {
+    bingMapsKey: '<?php echo $bingkey; ?>',
+    imagerySet: 'AerialWithLabelsOnDemand',
+    culture: '<?php echo $lang; ?>'
+  }
+  var basetiles = L.tileLayer.bing(bopti);
+  var sattiles = L.tileLayer.bing(bsopti);
   var buildings = L.markerClusterGroup({polygonOptions: {color: '#B8B8B8',weight: 0.5,opacity: 1,fillOpacity: 0.5},spiderfyDistanceMultiplier: 5,showCoverageOnHover: false,disableClusteringAtZoom: 16,spiderfyOnMaxZoom: false});
   var documentary = new L.geoJson();
   var map = L.map('map_canvas', {center: [39.01,35.35],layers: [basetiles]});

@@ -5,3 +5,4 @@
 		$mapAttrib='<a href="http://mapbox.com/" target="_blank" rel="noopener noreferrer">Mapbox</a> | <a href="#" data-toggle="modal" data-lang="'.$lang.'" data-target="#staticContent" data-name="_cookie_policy">'.$language["cookie"].'</a>';
 		$satelliteUrl='https://api.tiles.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token='.$mapboxToken;
 		$tileUrl='https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token='.$mapboxToken;
+    $bingkey = 'AmI_3tafC2lgIkZE_EDMEcRwIy3oY1kris6s3cLQdsxTHGvIj7C9LJ_nHpn_Pouz';
