@@ -68,8 +68,8 @@ var map = new mapboxgl.Map({
           center: coordinates,
           zoom: 17
         });
-        var pop = '<a href="#" data-toggle="modal" data-tour_id="'+ id +'" data-id="'+ e.features[0].properties.name +'" data-lang="'+ lang +'" data-target="#DetailModal" data-type="tour" data-name="'+ title +'"><p class="popup">' + title + '</p><p><img src="docu/tours/adana/step'+e.features[0].properties.name+'.jpg" width="220px"> </a>'
-        
+        var pop = '<a href="#" data-toggle="modal" data-tour_id="'+ id +'" data-id="'+ e.features[0].properties.name +'" data-lang="'+ lang +'" data-target="#DetailModal" data-type="tour" data-name="'+ title +'"><p class="popup">' + title + '</p> </a>'
+
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
