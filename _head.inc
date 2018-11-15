@@ -8,6 +8,7 @@ include("mapset.inc");
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="Description" content="tr: Hrant Dink Vakfı Kültürel Miras Araştırması etkileşimli haritası Türkiye Kültür Varlıkları, en: Hrant Dink Foundation Cultural Heritage Research Turkey Cultural Heritage interactive map">
     <title><?php echo $language['page_title']; ?></title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
