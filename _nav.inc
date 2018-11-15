@@ -9,7 +9,7 @@
       <?php echo $language["_find_me"]; ?>
     </button>
     <div class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle" href="#" id="mapDropDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <a class="nav-link dropdown-toggle" href="#" id="ChooseLayer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          <?php echo $language["_about_map"]; ?>
        </a>
        <div class="dropdown-menu" aria-labelledby="mapDropDown">
