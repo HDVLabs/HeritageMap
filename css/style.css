@@ -27,7 +27,8 @@ blockquote {margin: 1em;font-style: italic;}
 .vitrin{max-height: 9em;}
 #placecrumb{position:relative;}
 #sidebar{overflow-y: auto;}
-#search_filter{z-index: 9999;}
+#search_filter{z-index: 1200;}
+#staticContent{z-index:2000;}
 #sharer{ position:absolute;right:1rem;top:50%;transform:translateY(-50%);}
 .spinner{z-index:800;margin:auto;display:block;position:absolute;top:130px;left:45%;}
 .spinner > div{width:18px;height:18px;background-color:#b96047;border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both;}
