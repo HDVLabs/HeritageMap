@@ -21,7 +21,7 @@ include("mapset.inc");
      <script src="lib/leaflet.markercluster.js"></script>
      <script src="lib/leaflet.custom.control.js"></script>
      <script src="lib/bootstrap.bundle.min.js"></script>
-     <script type="text/javascript">
+     <script>
        var _paq = _paq || [];
        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
        _paq.push(['trackPageView']);
