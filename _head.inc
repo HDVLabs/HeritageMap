@@ -22,16 +22,13 @@ include("mapset.inc");
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/leaflet.css">
-      <link rel="stylesheet" type="text/css" href="css/pannellum.css">
      <script src="lib/leaflet.js"></script>
-     <script src="lib/pannellum.js"></script>
      <script src="lib/jquery-3.3.1.min.js"></script>
      <script src="lib/leaflet.markercluster.js"></script>
      <script src="lib/leaflet.custom.control.js"></script>
      <script src="lib/bootstrap.bundle.min.js"></script>
      <script>
        var _paq = _paq || [];
-       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
        _paq.push(['trackPageView']);
        _paq.push(['enableLinkTracking']);
        (function() {

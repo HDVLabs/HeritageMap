@@ -1,5 +1,7 @@
   </div>
 </div>
+<link rel="stylesheet" type="text/css" href="css/pannellum.css">
+<script src="lib/pannellum.js"></script>
 <div class="modal fade" id="DetailModal" role="dialog">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
