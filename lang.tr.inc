@@ -1,6 +1,8 @@
 <?php
 $language['_noscript'] = 'Kültür Varlıkları Haritası ve Kültürel Miras belgeseli Leaflet ve başka birkaç özgür, açık kaynak kodlu javascript kitaplıklarını kullanıyor. Ziyaretinize dair hiçbir bilgiyi sunucuda saklamıyor, sizden herhangi bir bilgi almıyoruz. Lütfen javascript desteğini aktif hale getirerek tekrar deneyin.';
 $language['page_title'] = 'Anadolu\'nun Çok Kültürlü Kültürel Mirası / Hrant Dink Vakfı';
+$language['page_desc'] = 'Hrant Dink Vakfı, Kültürel Miras Araştırması, Türkiye Kültür Varlıkları etkileşimli haritası';
+$language['_twitter'] = '@HrantDinkVakfi ';
 $language['_count'] = 'yapı sayısı: ';
 $language['_not_found'] = 'Aranan isimde yer/yapı bulunamadı';
 $language['_geo_error'] = 'Konum bilgisi alınamadı';

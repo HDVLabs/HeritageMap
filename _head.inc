@@ -8,8 +8,14 @@ include("mapset.inc");
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <meta name="Description" content="tr: Hrant Dink Vakfı Kültürel Miras Araştırması etkileşimli haritası Türkiye Kültür Varlıkları, en: Hrant Dink Foundation Cultural Heritage Research Turkey Cultural Heritage interactive map">
+    <meta name="Description" content="<?php echo $language['page_desc']; ?>">
     <title><?php echo $language['page_title']; ?></title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<?php echo $language['_twitter']; ?>">
+    <meta name="twitter:creator" content="Hrant Dink Vakfı">
+    <meta name="twitter:title" content="<?php echo $language['page_title']; ?>">
+    <meta name="twitter:description" content="<?php echo $language['page_desc']; ?>">
+    <meta name="twitter:image" content="https://hrantdink.org/images/KM/haritadan/06112018_kvharita_800.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">

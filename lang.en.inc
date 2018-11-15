@@ -1,6 +1,8 @@
 <?php
 $language['_noscript'] = 'The Cultural Heritage Map and documentary relies on various open source, free javascript libraries including Leaflet. We never get/store any information regarding your visit to the site. Please enable javascripts and try again.';
 $language['page_title'] = 'Multi cultural Heritage of Anatolia by Hrant Dink Foundation';
+$language['page_desc'] = 'Hrant Dink Foundation, Cultural Heritage Research and Turkey Cultural Heritage interactive map';
+$language['_twitter'] = '@HrantDinkFnd';
 $language['_count'] = 'number of buildings: ';
 $language['_not_found'] = 'No such place/name in our database';
 $language['_geo_error'] = 'Unable to retrieve your location';
