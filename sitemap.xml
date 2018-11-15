@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://turkiyekulturvarliklari.hrantdink.org/index.php?lang=tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://turkiyekulturvarliklari.hrantdink.org/index.php?lang=en" />
+    <lastmod>2018-11-15T10:00:47+00:00</lastmod>
+    <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://turkiyekulturvarliklari.hrantdink.org/map.php?lang=tr</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://turkiyekulturvarliklari.hrantdink.org/map.php?lang=en" />
+  <lastmod>2018-11-15T10:00:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turkiyekulturvarliklari.hrantdink.org/documentary.php?lang=tr</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://turkiyekulturvarliklari.hrantdink.org/documentary.php?lang=en" />
+  <lastmod>2018-11-15T10:00:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://turkiyekulturvarliklari.hrantdink.org/search.php?q=&city=Adana&doc_id=5&lang=tr</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://turkiyekulturvarliklari.hrantdink.org/search.php?q=&city=Adana&doc_id=5&lang=en" />
+  <lastmod>2018-11-15T10:00:47+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://turkiyekulturvarliklari.hrantdink.org/search.php?q=&city=Sivas&doc_id=6&lang=tr</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://turkiyekulturvarliklari.hrantdink.org/search.php?q=&city=Sivas&doc_id=6&lang=en" />
+  <lastmod>2018-11-15T10:00:47+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+</urlset>
