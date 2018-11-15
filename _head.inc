@@ -17,6 +17,8 @@ include("mapset.inc");
     <meta name="twitter:description" content="<?php echo $language['page_desc']; ?>">
     <meta name="twitter:image" content="https://hrantdink.org/images/KM/haritadan/06112018_kvharita_800.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <meta property="og:title" content="<?php echo $language['page_title']; ?>" />
+    <meta property="og:image" content="https://hrantdink.org/images/KM/haritadan/06112018_kvharita_800.jpg" />
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/leaflet.css">
