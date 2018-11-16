@@ -22,13 +22,13 @@
             </select>
             </div>
             <div class="col">
-            <select name="tr_ethnicity" class="form-control filterit">
+            <select name="en_ethnicity" class="form-control filterit">
               <option value="">etnik toplulukla sınırla</option>';
             <?php include '../_ethnicity.inc'; ?>
             </select>
             </div>
             <div class="col">
-            <select name="tr_building_type" class="form-control filterit">
+            <select name="en_building_type" class="form-control filterit">
               <option value="">yapı tipiyle sınırla</option>
               <?php include '../_type.inc'; ?>
             </select>
