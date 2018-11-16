@@ -34,6 +34,13 @@ $language['_type_label'] = 'tek bir yapı cinsini ara';
 $language['_search_button'] = 'Bul';
 $language['_search_options'] = 'Arama filtrelerini göster';
 
+// advanced search
+  $language['_adv_search_title'] = 'Gelişmiş Arama';
+  $language['_adv_city'] = 'Aramaya dahil etmek istediğiniz şehirleri seçin';
+  $language['_adv_ethnicity'] = 'Hangi toplulukları dahil etmek istediğinizi seçin';
+  $language['_adv_denomination'] = 'Hangi mezhepleri dahil etmek istediğinizi seçin';
+  $language['_adv_type'] = 'Hangi tür yapıları dahil etmek istediğinizi seçin';
+
 // info page variables
   $language['_visuals'] = 'Fotoğraflar';
   $language['_no_image'] = "Özür dileriz, bu yapıya ait fotoğrafa ulaşamadık.";

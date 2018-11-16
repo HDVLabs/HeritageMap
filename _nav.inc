@@ -63,6 +63,7 @@
                 <option value=""><?php echo $language["_type_label"]; ?></option>
                 <?php include '_type.inc'; ?>
               </select>
+              <a class="nav-link" href="#" data-toggle="modal" data-lang="<?php echo $lang; ?>" data-target="#staticContent" data-name="_adv_search"><?php echo $language["_adv_search_title"]; ?></a>
               <input type='hidden' name='lang' value='<?php echo "$lang";?>'/>
             </div>
           </div>

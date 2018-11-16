@@ -34,6 +34,13 @@ $language['cookie'] = 'data policy';
   $language['_search_button'] = 'Find';
   $language['_search_options'] = 'Toggle search filters';
 
+// advanced search
+  $language['_adv_search_title'] = 'Advanced Search';
+  $language['_adv_city'] = 'Choose cities to be included in search';
+  $language['_adv_ethnicity'] = 'Select communities to be included';
+  $language['_adv_denomination'] = 'Select denominations to be included';
+  $language['_adv_type'] = 'Select building types to be included';
+
 // info page variables
   $language['_visuals'] = 'Photos';
   $language['_no_image'] = "Sorry we don't have any pictures of this structure.";

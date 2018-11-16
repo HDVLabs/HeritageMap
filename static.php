@@ -4,6 +4,10 @@ if ($_POST['name'] == '_contribute') {
  header("Location: form.php?lang=".$_POST['lang']);
  die();
 }
+if ($_POST['name'] == '_adv_search') {
+ header("Location: adv_form.php?lang=".$_POST['lang']);
+ die();
+}
   require '_conn.inc';
     try {
     $name = $_POST['name'];
